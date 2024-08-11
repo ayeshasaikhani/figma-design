@@ -1,0 +1,12 @@
+.sidebar {
+    width: 15%;
+    background-color: #333; /* Dark grey color */
+    border-radius: 15px; /* Rounded edges */
+    margin: 10px; /* Small space from all sides */
+    height: calc(100% - 20px); /* Adjust height to fit within container */
+  }
+  
+  .right-sidebar {
+    margin-right: 10px;
+  }
+  

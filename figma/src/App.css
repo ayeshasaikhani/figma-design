@@ -1,0 +1,40 @@
+/* Basic reset */
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d2d0d0; /* Off-white background */
+}
+
+.container {
+  display: flex;
+  width: 50%; /* Adjust width as needed */
+  height: 90%; /* Adjust height as needed */
+  background-color: transparent;
+  box-sizing: border-box; /* Ensure padding/margin is included in dimensions */
+}
+
+.content {
+  flex-grow: 1;
+  margin: 10px;
+  background-color: transparent;
+}
+
+.left-sidebar {
+  width: 15%; /* Adjust width as needed */
+  background-color: #9d1212; /* Dark grey color */
+  border-radius: 15px; /* Rounded edges */
+  height: calc(100% - 20px); /* Adjust height to fit within container */
+  margin-left: 10px;
+}
+
+.right-sidebar {
+  width: 15%; /* Adjust width as needed */
+  background-color: #333; /* Dark grey color */
+  border-radius: 15px; /* Rounded edges */
+  height: calc(100% - 20px); /* Adjust height to fit within container */
+  margin-right: 10px;
+}
