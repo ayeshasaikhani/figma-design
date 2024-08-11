@@ -2,8 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import "./components/LeftSidebar/LeftSidebar.css";
-import "./components/RightSidebar/RightSidebar.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(

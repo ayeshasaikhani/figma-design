@@ -10,7 +10,7 @@ const App: React.FC = () => {
   return (
     <div className="container">
       <LeftSidebar />
-      <div className="content">{/* Main content area */}</div>
+      <div className="content">{}</div>
       <RightSidebar />
     </div>
   );
